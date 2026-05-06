@@ -1,0 +1,607 @@
+body {
+       background-color: #ddc9e2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo img {
+    width: 150px;
+   
+}
+
+.navbar{
+
+background-color: #16002e; 
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 10px 40px;
+background-image: url(/img/ChatGPT\ Image\ May\ 2\,\ 2026\,\ 07_09_27\ PM.png);
+    background-size: 600px;
+
+
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links li{
+color: #e6e6f8;
+cursor: pointer;
+font-size: 20px;
+font-weight: bold;
+
+}
+.nav-links li:hover{
+color: #d0d0f2;
+}
+
+.nav-button {
+    align-items: center;
+    padding: 15px;
+    color: #16002e;
+    background-color: #e6e6fa;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-button:hover{
+background-color: #615172;
+color: #d0d0f2;
+
+}
+
+/* .banner{
+    position: relative;
+} */
+
+.banner img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .banner-text{
+position: absolute;
+
+
+} */
+
+.best-container{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.best h1 {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #16002e;
+    color: #e6e6fa;
+    padding: 20px;
+    background-image: url(/img/ChatGPT\ Image\ May\ 2\,\ 2026\,\ 07_09_27\ PM.png);
+    background-size: 600px;
+}
+.best-seller{
+    width: 250px;
+    text-align: center;
+}
+
+.best{
+    text-align: center;
+        font-family: ui-monospace;
+   
+}
+
+.best img {
+   height: 180px;
+   object-fit: contain;
+}
+
+button {
+    align-items: center;
+    padding: 15px;
+    background-color: #16002e;
+    color: #e6e6fa;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+   
+}
+
+button:hover{
+ background-color: #615172;
+color: #d0d0f2;
+
+}
+
+.image-box{
+ position: relative;
+    margin-top: 40px;
+}
+
+.image-box img{
+    width: 100%;
+    display: block;
+}
+
+.text p{
+position: absolute;
+    top: 45%;
+    left: 4%;
+    line-height: 1.4;
+transform: translateY(-50%);
+
+color: white;
+font-size: 40px;
+font-weight: bold;
+
+
+}
+
+section.find-us {
+    text-align: center;
+    height: 150px;
+    margin-top: 65px;
+margin-bottom: 30px;
+}
+
+.find-us h2{
+    font-size: 45px;
+}
+
+.find-us p{
+ font-size: 30px;
+
+}
+
+section.store {
+    background-color: #16002e;
+    color: #d0d0f2;
+    text-align: center;
+    height: 200px;
+    margin-top: 65px;
+    margin-bottom: 2px;
+
+}
+
+
+
+    .store h2 {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.store button {
+    background-color: #e6e6fa;
+    color: #16002e;
+}
+
+.store button:hover{
+background-color: #615172;
+color: #16002e;
+}
+
+.store p{
+    font-size: 20px;
+}
+
+
+
+
+/* MAIN LAYOUT */
+
+
+/* GRID LAYOUT (no more flex issues) */
+.footer-container {
+ 
+  
+  display: flex;
+  align-items: center;
+  padding: 40px 60px;
+  position: relative;
+
+}
+
+.footer{
+    background-image: url(/img/ChatGPT\ Image\ May\ 2\,\ 2026\,\ 07_09_27\ PM.png);
+        background-size: 600px;
+        color: #d0d0f2;
+}
+
+/* LEFT */
+.footer-left {
+  max-width: 500px;
+}
+
+/* CENTER (for spacing control) */
+.footer-container::before {
+  content: "";
+}
+
+/* RIGHT IMAGE */
+.footer-right {
+  display: flex;
+ position: absolute;
+  right: 0px;
+  left: 0;
+  justify-content: flex-end;
+    margin-left: auto;
+   
+}
+
+.footer-right img {
+  width: 380px;
+  display: block;
+  height: auto;
+  transform: translateY(50px);
+  
+}
+
+/* LINKS + ICONS */
+.links-social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.links {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.links li {
+  margin-bottom: 6px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* divider */
+
+hr{ color: #d0d0f2;}
+
+.divider {
+    width: 1px;
+    height: 125px;
+    background: #d0d0f2;
+}
+
+/* icons */
+.social-icons {
+  display: flex;
+  font-size: 26px;
+  margin-right: 14px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/* BOTTOM TEXT */
+.footer-bottom {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+}
+
+
+.footer-left h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #d0d0f2;
+}
+
+
+/* About-page */
+
+.about-page .navbar{
+    background-image: none;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+     padding: 20px 0 20px 20px;
+      /* background-image: url(/img/ChatGPT\ Image\ May\ 2\,\ 2026\,\ 07_09_27\ PM.png); */
+     /* background-size: 600px; */
+     background-color: #16002e;
+     color: #d0d0f2;
+}
+
+.about-text{
+    width: 50%;
+    text-align: justify;
+        padding-left: 20px;
+    
+}
+
+.about-text h1{
+ 
+    text-align: center;
+      
+}
+
+.about-text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about-img{
+    width: 50%;
+    align-items: center;
+        padding-left: 150px;
+}
+
+.about-img img{
+display: block;
+    width: 400px;
+}
+
+
+.ourstory-container {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    /* background-image: url(/img/ChatGPT\ Image\ May\ 2\,\ 2026\,\ 07_09_27\ PM.png);
+       background-size: 600px; */
+    /* color: #d0d0f2; */
+}
+
+
+    .ourstory-container h1{
+ text-decoration: underline;
+    text-align: center;
+    
+     
+}
+
+.ourstory-container p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.mission-container{
+
+
+       display: flex;
+    align-items: center;
+    width: 100%;
+     padding: 20px 0 20px 20px;
+     background-color: #16002e;
+      color: #d0d0f2;}
+      /* background-image: url(/img/ChatGPT\ Image\ May\ 2\,\ 2026\,\ 07_09_27\ PM.png); */
+       /* background-size: 600px; */ 
+
+
+.mission-img{
+    width: 50%;
+    align-items: center;
+       padding-left: 60px;
+      
+}
+
+.mission-img img{
+display: block;
+    width: 400px;
+}
+
+.mission-text{
+    width: 50%;
+    text-align: justify;
+       padding-right: 40px;
+    
+}
+
+.mission-text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about-do-container {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+     /* background-image: url(/img/ChatGPT\ Image\ May\ 2\,\ 2026\,\ 07_09_27\ PM.png);
+       background-size: 600px; */
+    /* color: #d0d0f2; */
+    
+}
+
+
+    .about-do-container h1{
+ text-decoration: underline;
+    text-align: center;
+   
+    
+     
+}
+
+.about-do-container p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about-do-container h6 {
+    font-size: 20px;
+    color: #615172;
+}
+
+.about-page footer{
+    background-image: url(/img/ChatGPT\ Image\ May\ 2\,\ 2026\,\ 07_09_27\ PM.png); 
+   background-size: 600px;
+}
+
+
+
+/* contact */
+
+.contact-content {
+    text-align: center;
+    padding: 30px;
+    color: #615172;
+    line-height: 1.5;
+}
+
+
+.contact-container2{
+max-width: 700px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 50px auto;
+     background-image: url(/img/ChatGPT\ Image\ May\ 2\,\ 2026\,\ 07_09_27\ PM.png);
+       background-size: 700px;
+    
+}
+
+/* Row for 2 columns */
+.row-contact {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Input group */
+.input-group {
+  flex: 1;
+  text-align: left;
+}
+
+/* Full width textarea */
+.full {
+  width: 100%;
+}
+
+/* Labels */
+label {
+  font-size: 14px;
+  color: #d0d0f2;
+}
+
+/* Inputs */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid;
+  border-bottom: 2px solid #d0d0f2;
+  background: transparent;
+  outline: none;
+  color: #d0d0f2;
+  
+}
+
+/* Textarea */
+textarea {
+  height: 80px;
+  resize: none;
+ 
+ 
+}
+
+/* Focus effect */
+input:focus, textarea:focus, select:focus {
+  border-color: #d0d0f2;
+  border: 2px solid;
+}
+
+.contact-container2 button{
+background-color: #d0d0f2;
+align-items: center;
+color: #16002e;
+
+}
+
+.btn-contact{
+    text-align: center;
+}
+
+/* flavors */
+
+.flavor-page .navbar{
+    background-image: none;
+}
+
+/* Main container */
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  gap: 60px;
+}
+
+/* Each product card */
+.product {
+    display: flex;
+ text-align: center;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 200px;
+}
+  
+
+/* Vertical divider */
+.product:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 60%;
+  width: 1px;
+  background: #aaa;
+  transform: translateY(-50%);
+}
+
+/* Images */
+.product img {
+  width: 150px;
+  height: 180px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+/* Text */
+.product h3 {
+  font-size: 18px;
+  font-weight: 500;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.product p {
+  margin: 5px 0 20px;
+  font-size: 16px;
+}
+
+/* Button */
+.product button {
+  margin-top: aut15px;
+  padding: 10px 25px;
+  border: 1px solid #16002e;
+  background: #16002e;
+  color: #d0d0f2;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.product button:hover {
+  background: #615172;
+  color: white;
+}
