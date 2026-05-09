@@ -10,6 +10,23 @@ html,body{
        width: 100%
 }
 
+ a button {
+    color: #16200e;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ .nav-button a {
+    color: #16200e;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.store button a {
+    color: #16200e;
+    cursor: pointer;
+    text-decoration: none;
+}
 .logo img {
     width: 150px;
    
