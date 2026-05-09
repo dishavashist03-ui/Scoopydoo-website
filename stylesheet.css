@@ -10,13 +10,13 @@ html,body{
        width: 100%
 }
 
- a button {
+ a button{
     color: #16200e;
     cursor: pointer;
     text-decoration: none;
 }
 
- .nav-button a {
+ .nav-button a{
     color: #16200e;
     cursor: pointer;
     text-decoration: none;
