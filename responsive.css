@@ -1,4 +1,4 @@
-@media  (max-width:991px) {
+@media screen and  (max-width:991px) {
 
 .product {
     display: flex;
@@ -44,7 +44,7 @@
 
 
 
-@media (max-width:768px) ){
+@media screen and (max-width:768px) ){
 
     .navbar {
     padding: 10px 10px;
@@ -57,7 +57,7 @@
 }
 
 
-@media  (max-width:480px){
+@media screen and (max-width:480px){
 
 
     .nav-links li {
