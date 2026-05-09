@@ -315,7 +315,8 @@ section.store {
 }
 }
 
-@media (max-width:320px){
+
+@media screen and (max-width:320px){
    
   .navbar {
     background-color: #16002e;
@@ -494,7 +495,7 @@ section.store {
     color: #615172;
 }
 
-}
+
 .contact-content {
     text-align: center;
     padding: 20px;
@@ -590,5 +591,5 @@ input, select, textarea {
     padding: 19px 5px;
     gap: 50px;
 }
-}
 
+}
