@@ -9,7 +9,11 @@ html,body{
        overflow-x: hidden;
        width: 100%
 }
-
+ a {
+    color: #e6e6f8;
+    cursor: pointer;
+    text-decoration: none;
+}
  a button{
     color: #16200e;
     cursor: pointer;
