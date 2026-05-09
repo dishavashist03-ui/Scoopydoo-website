@@ -1,4 +1,4 @@
-@media (max-width:991px){
+@media only screen and (min-width:991px) and (max-width:1199px){
 
 .product {
     display: flex;
@@ -44,7 +44,7 @@
 
 
 
-@media (max-width:768px){
+@media only screen and (min-width:768px) and (max-width: 990px){
 
     .navbar {
     padding: 10px 10px;
@@ -57,7 +57,7 @@
 }
 
 
-@media (max-width:480px){
+@media only screen and (min-width:480px) and (max-width: 767px){
 
 
     .nav-links li {
@@ -89,7 +89,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 10px 10px;
-    /* background-image: url(ChatGPT Image May 2, 2026, 07_09_27 PM.png);
+    /* background-image: url(/img/ChatGPT Image May 2, 2026, 07_09_27 PM.png);
     background-size: 330px; */
 }
 
@@ -289,7 +289,7 @@ section.store {
     align-items: center;
     padding: 20px 30px 20px 20px;
     margin: 20px auto;
-    /* background-image: url(ChatGPT Image May 2, 2026, 07_09_27 PM.png);
+    /* background-image: url(/img/ChatGPT Image May 2, 2026, 07_09_27 PM.png);
     background-size: 700px; */
 }
 
@@ -315,29 +315,251 @@ section.store {
 }
 }
 
-@media (max-width:393px){
+@media (max-width:320px){
    
-    *{
-        max-width: 100%;
+  .navbar {
+    background-color: #16002e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+    
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.best-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 900px;
+            padding: 10px;
+}
+
+   .best img {
+        height: 100px;
+        object-fit: contain;
     }
 
-    img{ width: 100%;
-    height: auto;}
+    .find-us h2 {
+    font-size: 26px;
+}
 
-    div{
-        width: 90%;
-    }
+.find-us p {
+    font-size: 18px;
+}
 
-    .container {
-    width: 100%;
+
+.store h2{
+     font-size: 20px;
+
+}
+
+.store p {
+    font-size: 14px;
+}
+
+section.find-us {
+    text-align: center;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section.store {
+    background-color: #16002e;
+    color: #d0d0f2;
+    text-align: center;
+    height: 200px;
+    margin-top: 65px;
+    margin-bottom: 2px;
+}
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.footer-left h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #d0d0f2;
+}
+
+.links li {
+    margin-bottom: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    font-size: 14px;
+    margin-right: 14px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.footer-right img {
+    width: 140px;
+    display: block;
+    height: auto;
+    transform: translateY(50px);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.about-img {
+    width: 50%;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.about-text p {
+    font-size: 10px;
+    
+}
+
+.about-text h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ourstory-container p {
+    font-size: 12px;
+    
+}
+
+.ourstory-container h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mission-text p {
+    font-size: 10px;
    
 }
 
-.best img {
-    height: 130px;
+.mission-text h1 {
+    font-size: 20px;
+   
+}
+
+.mission-img img {
+    display: block;
+    width: 100px;
+}
+
+
+.mission-img {
+    width: 50%;
+    align-items: center;
+    padding-left: 20px;
+}
+.about-img img {
+    display: block;
+    width: 160px;
+}
+
+.about-do-container p {
+    font-size: 10px;
+   
+}
+.about-do-container h1 {
+    font-size: 20px;
+   
+}
+
+.about-do-container h6 {
+    font-size: 15px;
+    color: #615172;
+}
+
+}
+.contact-content {
+    text-align: center;
+    padding: 20px;
+    color: #615172;
+    line-height: 1.5;
+}
+
+.contact-container2 {
+    max-width: 700px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 10px auto;
+   
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 1px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-bottom: 2px solid #d0d0f2;
+    background: transparent;
+    outline: none;
+    color: #d0d0f2;
+        font-size: 10px;
+}
+
+.product img {
+    width: 150px;
+    height: 140px;
+    margin-bottom: 20px;
     object-fit: contain;
 }
 
+.product {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 65px;
+}
+
+.product button {
+    margin-top: aut15px;
+    padding: 5px 20px;
+    border: 1px solid #16002e;
+    background: #16002e;
+    color: #d0d0f2;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.product:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    height: 85%;
+    width: 1px;
+    background: #aaa;
+    transform: translateY(-50%);
+}
 
     .nav-button {
         align-items: center;
@@ -369,4 +591,4 @@ section.store {
     gap: 50px;
 }
 
-} 
+
